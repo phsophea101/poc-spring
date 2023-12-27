@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: poc-spring
+  mvc:
+    throw-exception-if-no-handler-found: true
+  profiles:
+    active: local
