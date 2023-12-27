@@ -1,0 +1,12 @@
+spring:
+    data:
+        mongodb:
+            uri: mongodb://mongoadmin:secret@localhost:27017/oauth?authSource=admin&directConnection=true
+logging:
+    level:
+        org:
+            springframework:
+                data:
+                    mongodb:
+                        core:
+                            MongoTemplate: DEBUG
