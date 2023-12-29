@@ -1,0 +1,12 @@
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:31672/postgres
+        username: admin
+        password: admin
+
+    jpa:
+        properties:
+            hibernate:
+                format_sql: 'true'
+        show-sql: 'true'
